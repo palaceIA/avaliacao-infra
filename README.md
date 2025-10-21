@@ -1,6 +1,6 @@
 # 🧩 **Atividade Avaliativa Prática 01 – Infraestrutura de TI**
 
-**Aluno:** Caio Palácio  
+**Aluno:** Caio Alves de Aguiar Palácio  
 **Turma:** 28M4A  
 **Data:** 21/10/2025  
 **Resultados:** [`/docs`](./docs)
