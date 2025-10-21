@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: infra-prova-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: infra-prova-api
+  template:
+    metadata:
+      labels:
+        app: infra-prova-api
+    spec:
+      containers:
+      - name: infra-prova-api
+        image: infra-prova-api:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5000
